@@ -1,0 +1,39 @@
+.bod{
+    background-color:rgb(27, 180, 201);
+}
+.search{
+    border-radius: 10px;
+}
+.inputSearch{
+    border-radius: 20px;
+    
+}
+.searchButton{
+    border-radius: 20px;
+    
+}
+.card{
+    display: inline-flex;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.result{
+    padding:50px;
+}
+.row{
+    margin-top: 20px;
+}
+#popovers {
+    display: inline-flex;
+    margin-left: -25px;
+}
+    #popovers button {
+    margin: 10px;
+    width: 130px;
+}
+.searchButton{
+    background-color: rgb(15, 78, 161);
+    color: black;
+}
+
