@@ -26,6 +26,7 @@ const fetchlisting = (Url) => {
                         <div class="col-sm">
                             <img src="${details.recipe.image}" class="card-img-top" alt="..." />
                             <div class="card-body">
+                                 <a href="${details.recipe.url}" target="blank">
                                 <h5 class="card-title">${details.recipe.label}</h5>
                                 <div id="popovers">
                                     <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="${details.recipe.healthLabels}">
